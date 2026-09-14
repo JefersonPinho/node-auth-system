@@ -1,24 +1,43 @@
-# Projeto de Acesso e Login
+# Node.js Auth System
 
-Este projeto consiste em um sistema de **cadastro** e **login** de usuários utilizando **Node.js**, **MySQL** e **JavaScript**.
+Sistema de autenticação desenvolvido com **Node.js, Express e MySQL**, permitindo cadastro e login de usuários com armazenamento seguro de senhas.
 
 ## Funcionalidades
 
-- Cadastro de usuário com validação de dados.
-- Login com verificação de senha criptografada.
+* Cadastro de usuários
+* Validação de dados
+* Login de usuários
+* Verificação de credenciais
+* Hash de senhas com bcrypt
+* Integração com banco de dados MySQL
 
 ## Tecnologias
 
-- **Node.js** e **Express.js** para o backend.
-- **MySQL** para armazenar dados dos usuários.
-- **bcrypt** para criptografar senhas.
-- **CORS** para permitir requisições entre diferentes origens.
+* Node.js
+* Express.js
+* JavaScript
+* MySQL
+* bcrypt
+* CORS
 
-## Como Rodar
+## Como executar
 
-### 1. Instalar Dependências
+Clone o repositório:
 
-Clone o repositório e instale as dependências com o seguinte comando:
+git clone [https://github.com/JefersonPinho/node-auth-system.git](https://github.com/JefersonPinho/node-auth-system.git)
 
-```bash
+Entre na pasta:
+
+cd node-auth-system
+
+Instale as dependências:
+
 npm install
+
+Inicie o projeto:
+
+npm start
+
+---
+
+Desenvolvido por **Jeferson Pinho**
